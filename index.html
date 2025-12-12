@@ -6,152 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assistência Técnica em Várzea da Palma</title>
 <style>
-    .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 60px 5%;
-    max-width: 1200px;
-    margin: 60px auto;
-}
+/* ======== MOBILE RESPONSIVO REAL ======== */
+@media (max-width: 768px) {
 
-.hero-content h1 {
-    font-size: 52px;
-    color: #012147;
-    margin-bottom: 20px;
-}
-
-.hero-content p {
-    font-size: 20px;
-    color: #012147;
-    margin-bottom: 20px;
-    max-width: 400px;
-}
-
-.hero-logo img {
-    width: 300px;
-    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.3));
-    border-radius: 20px;
-}
-
-@media (max-width: 900px) {
     .hero {
         flex-direction: column;
+        padding: 20px 10px;
+        margin: 20px auto;
         text-align: center;
-        gap: 20px;
     }
 
-    .hero-logo {
-        width: 220px;
-        border-radius: 30px;
+    .hero-content h1 {
+        font-size: 32px;
+        line-height: 1.2;
     }
-}
 
-.cta-btn {
-    background-color: #e3c100;
-    padding: 15px 30px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-    transition: 0.3s;
-}
+    .hero-content p {
+        font-size: 16px;
+        max-width: 100%;
+    }
 
-.cta-btn:hover {
-    transform: scale(1.05);
-}
+    .hero-logo img {
+        width: 180px;
+        margin-top: 10px;
+    }
 
-.serviços {
-    padding: 60px 5%;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-}
+    .cta-btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
 
-.serviços h2 {
-    font-size: 36px;
-    color: #012147;
-    margin-bottom: 40px;
-}
+    /* serviços */
+    .serviços {
+        padding: 30px 5%;
+    }
 
-.serviços-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-}
+    .serviços h2 {
+        font-size: 28px;
+    }
 
-.serviços-card {
-    background: #ffffff;
-    width: 31%;
-    border-radius: 15px;
-    padding: 25px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: 0.3s ease;
-}
-
-.serviços-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-}
-
-.serviços-card img {
-    width: 80px;
-    margin-bottom: 15px;
-}
-
-.serviços-card h3 {
-    font-size: 22px;
-    color: #012147;
-    margin-bottom: 10px;
-}
-
-.serviços-card p {
-    font-size: 16px;
-    color: #012147;
-}
-
-@media (max-width: 900px) {
     .serviços-card {
         width: 100%;
+        padding: 20px;
     }
-}
 
-.footer {
-    background-color: #012147;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 60px;
-}
+    .serviços-card h3 {
+        font-size: 20px;
+    }
 
-.footer-container{
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-}
+    .serviços-card p {
+        font-size: 15px;
+    }
 
-.footer h3{
-    font-size: 22px;
-    margin-bottom: 15px;
-    color: #e3c100;
-}
+    /* footer */
+    .footer {
+        padding: 30px 10px;
+    }
 
-.footer p{
-    font-size: 16px;
-    line-height: 1.6;
-}
+    .footer h3 {
+        font-size: 20px;
+    }
 
-.footer-bottom{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
-    opacity: 0.8;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    padding-top: 15px;
+    .footer p {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -160,42 +78,7 @@
         align-items: center;
     }
 }
-    body {
-  margin: 0;
-  padding: 0 10px;
-  font-size: 1rem;
-}
 
-/* Imagens responsivas */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Ajusta títulos e textos no celular */
-h1, h2, h3, p, a {
-  font-size: 1.1rem;
-  text-align: center;
-}
-
-/* Media query para telas menores que 600px */
-@media (max-width: 600px) {
-  body {
-    padding: 0 5px;
-  }
-
-  h1 {
-    font-size: 1.4rem;
-  }
-
-  h2 {
-    font-size: 1.3rem;
-  }
-
-  p, a {
-    font-size: 1.1rem;
-  }
-}
 </style>
 </head>
 
@@ -308,4 +191,5 @@ h1, h2, h3, p, a {
 
 
 </html>
+
 

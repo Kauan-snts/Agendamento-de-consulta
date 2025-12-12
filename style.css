@@ -182,7 +182,6 @@
         font-size: 16px;
     }
 
-    /* ---- Serviços ---- */
     .serviços {
         padding: 30px 5%;
     }
@@ -209,7 +208,6 @@
         font-size: 15px;
     }
 
-    /* ---- Footer ---- */
     .footer {
         padding: 30px 10px;
     }
@@ -228,4 +226,5 @@
         font-size: 15px;
     }
 }
+
 
